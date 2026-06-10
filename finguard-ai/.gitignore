@@ -1,10 +1,12 @@
 # Environment
+
 .env
 .env.local
 .env.*.local
 
 # Python
-__pycache__/
+
+**pycache**/
 *.py[cod]
 *.egg-info/
 *.egg
@@ -16,17 +18,21 @@ venv/
 env/
 
 # Data (do not commit uploaded PDFs or vector DB)
+
 data/uploads/*.pdf
 chroma_db/
 
 # IDE
+
 .vscode/
 .idea/
 *.swp
 
 # OS
+
 .DS_Store
 Thumbs.db
 
 # Logs
+
 *.log
